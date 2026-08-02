@@ -1,0 +1,59 @@
+# gradle
+gradle/
+.gradle/
+build/
+out/
+classes/
+gradlew.bat
+gradlew
+gradle.properties
+build.gradle
+settings.gradle
+
+# eclipse
+
+*.launch
+
+# idea
+
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# vscode
+
+.settings/
+.vscode/
+bin/
+.classpath
+.project
+
+# macos
+
+*.DS_Store
+
+# fabric
+
+run/
+run/**
+
+# java
+
+hs_err_*.log
+replay_*.log
+*.log
+*.hprof
+*.jfr
+
+# local secrets / environment
+
+*.env
+*.keystore
+*.jks
+*.pem
+*.p12
+
+# system files
+
+Thumbs.db

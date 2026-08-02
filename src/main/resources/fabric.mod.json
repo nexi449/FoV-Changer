@@ -1,0 +1,27 @@
+{
+	"schemaVersion": 1,
+	"id": "custom-fov",
+	"version": "${version}",
+	"name": "Custom Fov",
+	"description": "Increase maximum fov value to 200.",
+	"authors": [
+		"Damon"
+	],
+	"license": "CC0-1.0",
+	"icon": "assets/custom-fov/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"me.damon.CustomFov"
+		]
+	},
+	"mixins": [
+		"custom-fov.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
