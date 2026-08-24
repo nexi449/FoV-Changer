@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "me.damon.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"MixinGameOptions"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
