@@ -1,0 +1,14 @@
+*
+!.gitignore
+!LICENSE
+!.readthedocs.yaml
+!docs/
+!docs/**
+
+!Fabric/
+!Fabric/src/
+!Fabric/src/**
+
+!Quilt/
+!Quilt/src/
+!Quilt/src/**
