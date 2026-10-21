@@ -1,0 +1,30 @@
+modLoader="javafml"
+loaderVersion="[1,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="custom_fov"
+version="${version}"
+displayName="Custom Fov"
+authors="Damon"
+logoFile="assets/custom-fov/icon.png"
+description='''
+Increases the maximum field of view value to 200.
+'''
+
+[[mixins]]
+config="custom-fov.mixins.json"
+
+[[dependencies.custom_fov]]
+modId="neoforge"
+type="required"
+versionRange="[21.1,)"
+ordering="NONE"
+side="CLIENT"
+
+[[dependencies.custom_fov]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1,26.4)"
+ordering="NONE"
+side="CLIENT"

@@ -1,0 +1,28 @@
+modLoader="javafml"
+loaderVersion="[63,)"
+license="All Rights Reserved"
+clientSideOnly=true
+
+[[mods]]
+modId="custom_fov"
+version="${version}"
+displayName="Custom Fov"
+authors="Damon"
+logoFile="assets/custom-fov/icon.png"
+description='''
+Increases the maximum field of view value to 200.
+'''
+
+[[dependencies.custom_fov]]
+modId="forge"
+mandatory=true
+versionRange="[63,64)"
+ordering="NONE"
+side="CLIENT"
+
+[[dependencies.custom_fov]]
+modId="minecraft"
+mandatory=true
+versionRange="[26.1.1,26.1.2)"
+ordering="NONE"
+side="CLIENT"

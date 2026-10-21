@@ -1,0 +1,32 @@
+{
+	"schema_version": 1,
+	"quilt_loader": {
+		"group": "${group}",
+		"id": "custom-fov",
+		"version": "${version}",
+		"metadata": {
+			"name": "Custom Fov",
+			"description": "Increase maximum fov value to 200.",
+			"contributors": {
+				"Damon": "Owner"
+			},
+			"license": "All Rights Reserved",
+			"icon": "assets/custom-fov/icon.png"
+		},
+		"depends": [
+			{
+				"id": "quilt_loader",
+				"versions": ">=0.26.3"
+			},
+			{
+				"id": "minecraft",
+				"versions": ">=1.21.1 <=26.3"
+			},
+			{
+				"id": "java",
+				"versions": ">=21"
+			}
+		]
+	},
+	"mixin": "custom-fov.mixins.json"
+}
