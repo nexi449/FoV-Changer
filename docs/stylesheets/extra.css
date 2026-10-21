@@ -6,6 +6,25 @@
   --md-typeset-a-color: #ffc90e;
 }
 
+.md-header {
+  background-color: #ffc90e;
+  color: #1e2129;
+}
+
+.md-header .md-icon {
+  color: #1e2129;
+}
+
+.md-header__title,
+.md-header__topic {
+  color: #1e2129;
+}
+
+.md-header .md-search .md-icon,
+.md-header .md-search__input {
+  color: #fff;
+}
+
 [data-md-color-scheme="slate"] {
   --md-default-bg-color: #1e2129;
   --md-default-bg-color--light: #1e2129;

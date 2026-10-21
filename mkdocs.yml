@@ -1,5 +1,5 @@
-site_name: Custom Fov
-site_description: Documentation for the Custom Fov Minecraft mod
+site_name: Fov-Changer
+site_description: Documentation for the Fov-Changer Minecraft mod
 
 theme:
   name: material
