@@ -5,7 +5,7 @@ license="All Rights Reserved"
 [[mods]]
 modId="custom_fov"
 version="${version}"
-displayName="Custom Fov"
+displayName="Fov-Changer"
 authors="Damon"
 logoFile="assets/custom-fov/icon.png"
 description='''

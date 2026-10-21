@@ -23,8 +23,8 @@ Download the release from [Modrinth](https://modrinth.com/mod/fov-changer). Conf
 ## Install
 
 1. Install the matching mod loader for your Minecraft installation.
-2. Download the Custom Fov release that matches both the loader and Minecraft version.
+2. Download the Fov-Changer release that matches both the loader and Minecraft version.
 3. Put the downloaded `.jar` file into that installation's `mods` folder.
 4. Start Minecraft using the matching loader profile.
 
-Do not install multiple Custom Fov files for different loaders or Minecraft versions in the same `mods` folder.
+Do not install multiple Fov-Changer files for different loaders or Minecraft versions in the same `mods` folder.

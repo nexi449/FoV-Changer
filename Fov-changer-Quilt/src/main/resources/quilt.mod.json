@@ -5,7 +5,7 @@
 		"id": "custom-fov",
 		"version": "${version}",
 		"metadata": {
-			"name": "Custom Fov",
+			"name": "Fov-Changer",
 			"description": "Increase maximum fov value to 200.",
 			"contributors": {
 				"Damon": "Owner"

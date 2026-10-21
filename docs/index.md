@@ -1,6 +1,6 @@
-# Custom Fov
+# Fov-Changer
 
-Custom Fov is a client-side Minecraft mod that raises the maximum value of the in-game Field of View (FOV) setting from 110 to 200. It changes the available range of the FOV option; it does not add a new setting or change server gameplay.
+Fov-Changer is a client-side Minecraft mod that raises the maximum value of the in-game Field of View (FOV) setting from 110 to 200. It changes the available range of the FOV option; it does not add a new setting or change server gameplay.
 
 ## Get started
 

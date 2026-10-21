@@ -1,14 +1,14 @@
 # Developer Wiki
 
-This page documents how Custom Fov works for developers reading the project. It describes runtime behavior and source-code responsibilities; it does not provide instructions for building, modifying, or distributing the software.
+This page documents how Fov-Changer works for developers reading the project. It describes runtime behavior and source-code responsibilities; it does not provide instructions for building, modifying, or distributing the software.
 
 ## License and scope
 
-Custom Fov is **ARR (All Rights Reserved)**. Access to source code or this technical explanation does not grant permission to copy, modify, build, or redistribute the project. The repository's root `LICENSE` file states the applicable terms.
+Fov-Changer is **ARR (All Rights Reserved)**. Access to source code or this technical explanation does not grant permission to copy, modify, build, or redistribute the project. The repository's root `LICENSE` file states the applicable terms.
 
 ## What the mod changes
 
-Minecraft's client creates its FOV option with a numeric upper bound of `110`. Custom Fov changes that bound to `200` while the client options are initialized. It does not replace the slider, introduce a second setting, or change a server-side value.
+Minecraft's client creates its FOV option with a numeric upper bound of `110`. Fov-Changer changes that bound to `200` while the client options are initialized. It does not replace the slider, introduce a second setting, or change a server-side value.
 
 The change is applied through a SpongePowered Mixin `@ModifyConstant` injection:
 
@@ -28,7 +28,7 @@ The target is the options class used by the Minecraft version in that project:
 | NeoForge | `net.minecraft.client.Options` | `MixinOptions` |
 | Forge | `net.minecraft.client.Options` | `MixinOptions` |
 
-The injection targets the constructor (`<init>`). Mixin finds the integer constant `110` in that method, passes it to the handler, and uses the returned `200` instead. This only changes the matching constant at the injection point; the mixin does not read or store a separate Custom Fov preference.
+The injection targets the constructor (`<init>`). Mixin finds the integer constant `110` in that method, passes it to the handler, and uses the returned `200` instead. This only changes the matching constant at the injection point; the mixin does not read or store a separate Fov-Changer preference.
 
 ## Loader entrypoints and registration
 

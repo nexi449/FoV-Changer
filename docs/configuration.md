@@ -1,6 +1,6 @@
 # Configuration
 
-Custom Fov does not add a separate configuration screen or configuration file. It extends the range of Minecraft's built-in **FOV** setting.
+Fov-Changer does not add a separate configuration screen or configuration file. It extends the range of Minecraft's built-in **FOV** setting.
 
 1. Open **Options** from the title screen or pause menu.
 2. Select **Video Settings**.
